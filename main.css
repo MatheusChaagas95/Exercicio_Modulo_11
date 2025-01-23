@@ -40,7 +40,7 @@ header nav li a {
 
 .container {
     max-width: 1280px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -79,14 +79,15 @@ section p {
 }
 
 div.about-text {
-    margin: 32px;
+    margin: 16px;
 }
 
 div.produto img {
     display: block;
     justify-content: center;
+    width: 100%;
 }
-.container .produtos {
+div.container.produtos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 8px;
@@ -131,7 +132,7 @@ button {
         margin: 0;
     }
 
-    .container .produtos {
+    div.container.produtos {
         display: block;
     }
 
